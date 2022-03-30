@@ -5,14 +5,14 @@ const ProductList = () => {
     return(
         <div className="pl" id="proyectos">
             <div className="pl-texts">
-                <h1 className="pl-title">MIS PROYECTOS</h1>
+                <h2 className="pl-title">Projects</h2>
                 <p className="pl-desc">
-                Algunos de los proyectos que he realizado
+                Here are some projects I have worked on
                 </p>
             </div>
             <div className="pl-list">
                 {products.map((item) => (
-                    <Product key={item.id} img={item.img} link={item.link}/>
+                    <Product key={item.id} img={item.img} link={item.link} data={item.data} title={item.title} repo={item.repo}/>
                 ))}
             </div>
         </div>

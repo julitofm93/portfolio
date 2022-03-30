@@ -130,6 +130,10 @@ i.title-item{
         flex-direction: column;
     }
 
+    .header{
+        display: none;
+    }
+
     .i-left{
         margin-top: 50px;
         height: 100vh;

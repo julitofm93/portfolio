@@ -16,8 +16,8 @@ const Intro = () =>{
               >
                 <ul>
                   <li><a href="#about">About</a> </li>
-                  <li><a href="#proyectos">Proyectos</a> </li>
-                  <li><a href="#contacto">Contactos</a> </li>
+                  <li><a href="#proyectos">Projects</a> </li>
+                  <li><a href="#contacto">Contact</a> </li>
                 </ul>
               </header>
                 <div className="i-left-wrapper">
@@ -30,9 +30,9 @@ const Intro = () =>{
                         </div>
                     </div>
                     <p className="i-desc">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dignissimos facere iusto adipisci cupiditate! Ea harum sapiente id voluptatibus molestiae placeat, porro nostrum possimus explicabo quasi, optio minima obcaecati et.
+                        Passionate developer looking for new challenges to offer better results.<br/>Shall we start a new project?
                     </p>
-                    <button className="margin"><a href={CV} target="blank" style={{color:"#EFF3F5"}}>Descargar CV</a></button>
+                    <button className="margin"><a href={CV} target="blank" style={{color:"#EFF3F5"}}>Download CV</a></button>
                 </div>
                 {/* <svg
           width="75"

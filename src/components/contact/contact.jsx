@@ -36,21 +36,21 @@ const Contact = () =>{
         <div className="c" id="contacto">
             <div className="c-wrapper">
                 <div className="c-left">
-                    <h1 className="c-title">Lets discuss</h1>
+                    <h2 className="c-title">Let's get in contact</h2>
                     <p className="c-desc">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus cupiditate laboriosam quisquam et facere iure dolores necessitatibus, quibusdam quis totam dignissimos vitae quasi, ex perferendis, exercitationem pariatur fuga. Debitis, quasi?
+                        If you want me to work with you, you can fill out the form or contact me trought my social networks below
                     </p>
                 </div>
                 <div className="c-right">
                     <form ref={formRef} onSubmit={handleSubmit}>
                         <div className="halfer">
-                        <input style={{backgroundColor: darkMode && "#161C24"}}type="text" placeholder="Name" name="user_name" className="half"/>
-                        <input style={{backgroundColor: darkMode && "#161C24"}}type="text" placeholder="Subject" name="user_subject" className="half"/>
+                        <input style={{backgroundColor: darkMode && "#161C24", color: darkMode && "white"}}type="text" placeholder="Name" name="user_name" className="half" required="true"/>
+                        <input style={{backgroundColor: darkMode && "#161C24", color: darkMode && "white"}}type="text" placeholder="Subject" name="user_subject" className="half" required="true"/>
                         </div>
-                        <input style={{backgroundColor: darkMode && "#161C24"}}type="text" placeholder="Email" name="user_email" className="email" />
-                        <textarea style={{backgroundColor: darkMode && "#161C24"}}name="message" placeholder="Message" rows="5"></textarea>
+                        <input style={{backgroundColor: darkMode && "#161C24", color: darkMode && "white"}}type="text" placeholder="Email" name="user_email" className="email" required="true"/>
+                        <textarea style={{backgroundColor: darkMode && "#161C24", color: darkMode && "white"}}name="message" placeholder="Message" rows="5" required="true"></textarea>
                         <button>Submit</button>
-                        {done && "Thank yoy..."}
+                        {done && "Thank you..."}
                     </form>
                 </div>
             </div>

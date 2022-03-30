@@ -1,16 +1,15 @@
 .a{
-    height: 100vh;
     display: flex;
     align-items: center;
 }
 
-.a-left{
-    flex:1;
+.a-left {
+    flex: 1 1;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     position: relative;
-    height: 100%;
+    flex-direction: column;
+    padding: 50px;
 }
 
 .a-right{
@@ -36,15 +35,11 @@
 }
 
 .a-title{
-    font-weight: 400;
+    font-size: 50px;
 }
 
 .a-sub{
     margin: 20px 0px;
-}
-
-.a-desc{
-    font-weight: 300;
 }
 
 .a-award{
@@ -82,8 +77,8 @@
         margin-top: 50px;
     }
 
-    .a-left{
-        display: none;
+     .a-left{
+        padding: 20px;
     }
 
     .a-card{
@@ -96,7 +91,6 @@
 
 
     .a{
-        height: 90vh;
         padding: 20px;
     }
 }
