@@ -22,15 +22,15 @@ export const products = [
       data: "Web App",
       title:"ToBuyApp",
       repo:"https://github.com/julitofm93/tobuyapp"
-    }/* ,
+    } ,
     {
       id: 4,
-      img: "./img/captura.png",
-      link: "http://lama.dev",
-      data: "",
-      title:"",
-      repo:""
-    },
+      img: "https://i.postimg.cc/fLz6vJRx/image.png",
+      link: "https://findrockjfm.herokuapp.com/",
+      data: "Web App",
+      title:"FindRock",
+      repo:"https://github.com/julitofm93/findRock"
+    }/* ,
     {
       id: 5,
       img: "./img/captura.png",
@@ -46,5 +46,5 @@ export const products = [
       data: "",
       title:"",
       repo:""
-    }, */
+    } */
   ];
