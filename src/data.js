@@ -30,16 +30,16 @@ export const products = [
       data: "Web App",
       title:"FindRock",
       repo:"https://github.com/julitofm93/findRock"
-    }/* ,
-    {
-      id: 5,
-      img: "./img/captura.png",
-      link: "http://lama.dev",
-      data: "",
-      title:"",
-      repo:""
     },
     {
+      id: 5,
+      img: "https://i.postimg.cc/ZRwMwxsz/Sin-t-tulo.png",
+      link: "https://lambent-druid-bfebbc.netlify.app/",
+      data: "Web App",
+      title:"Admin Dashboard",
+      repo:"https://github.com/julitofm93/adminDashboard"
+    },
+/*     {
       id: 6,
       img: "./img/captura.png",
       link: "http://lama.dev",
